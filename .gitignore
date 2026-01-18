@@ -1,0 +1,44 @@
+# Compiled binaries
+build/
+*.o
+*.out
+*.exe
+*.a
+*.so
+*.dll
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*~
+*.swo
+
+# Build artifacts
+CMakeFiles/
+cmake-build-*/
+Makefile
+CMakeCache.txt
+
+# Dependencies
+deps/
+venv/
+__pycache__/
+
+# Data files (optional - include if large)
+data/*.bin
+data/*.dat
+!data/.gitkeep
+
+# Logs and outputs
+*.log
+output/
+results/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+temp/
